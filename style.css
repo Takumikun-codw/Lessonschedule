@@ -1,0 +1,15 @@
+a {
+    display: block;
+    width: 230px;
+    height: 40px;
+    background-color: #55585a;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei';
+    color: white;
+    text-decoration: none;
+    text-indent: 2em;
+    line-height: 40px;
+}
+a:hover {
+    background-color: orange;
+}
