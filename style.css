@@ -1,15 +1,18 @@
-a {
-    display: block;
-    width: 230px;
-    height: 40px;
-    background-color: #55585a;
-    font-size: 14px;
+body {
+    background-image: url(课程表御用背景.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: 'Microsoft Yahei';
-    color: white;
-    text-decoration: none;
-    text-indent: 2em;
-    line-height: 40px;
+    text-align: center;
 }
-a:hover {
-    background-color: orange;
+h2 {
+    font-family: 'Microsoft Yahei';
+    font-weight: 700;
+}
+td, tr {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid white;
+    border-collapse:collapse;
 }
