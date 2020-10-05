@@ -1,3 +1,4 @@
+
 body {
     background-image: url(课程表御用背景.jpg);
     background-repeat: no-repeat;
@@ -9,10 +10,49 @@ h2 {
     font-family: 'Microsoft Yahei';
     font-weight: 700;
 }
-td, tr {
+tr, td {
     width: 35px;
     height: 35px;
     text-align: center;
     border: 1px solid white;
-    border-collapse:collapse;
+    border-radius: 5px;
+    color: whitesmoke;
+    empty-cells: hide;
+    vertical-align: top;
+    font-size: small;
+    font-weight: 550;
+}
+.black {
+    color:black;
+    border: none;
+}
+.green {
+    background: rgba(103,227,196,0.8);
+}
+.red {
+    background: rgba(241,100,127,0.8);
+}
+.pink {
+    background: rgba(236, 148, 158, .8);
+}
+.purple {
+    background: rgba(184, 157, 241, .8);
+}
+.blue1 {
+    background: rgba(113, 162, 241, .8);
+}
+.blue2 {
+    background: rgba(106, 177, 232, .8);
+}
+.orange {
+    background: rgba(232, 171, 90, .8);
+}
+.transparent {
+    opacity: 0.2;
+}
+tr>td :hover {
+    box-shadow: 10px 10px 20px 6px rgba(0, 0, 0, 0.2);
+}
+span {
+    font-weight: 400;
 }
