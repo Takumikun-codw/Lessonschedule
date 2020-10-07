@@ -11,9 +11,12 @@ body {
 h3 {
     display: inline;
 }
-p {
+.top p {
     display: inline-block;
     font-size: 15px;
+}
+.content p {
+    text-align: center;
 }
 .top {
     margin-left: 10%;
@@ -96,7 +99,49 @@ span{
 .transparent {
     opacity: 0.2;
 }
-#popBox {
+#popBox1 {
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 11;
+    width: 200px;
+    height: 200px;
+    position:fixed;
+    border-radius: 10px;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+#popBox2 {
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 11;
+    width: 200px;
+    height: 200px;
+    position:fixed;
+    border-radius: 10px;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+#popBox3 {
+    display: none;
+    background-color: #FFFFFF;
+    z-index: 11;
+    width: 200px;
+    height: 200px;
+    position:fixed;
+    border-radius: 10px;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+}
+#popBox4 {
     display: none;
     background-color: #FFFFFF;
     z-index: 11;
@@ -124,15 +169,46 @@ span{
     filter: alpha(opacity=80);
 }
 
-#popBox .close{
+#popBox1 .close{
     text-align: right;
     margin-right: 5px;
     background-color: #F8F8F8;
     border-radius: 10px;
 }
-
-#popBox .close a {
+#popBox2 .close{
+    text-align: right;
+    margin-right: 5px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#popBox3 .close{
+    text-align: right;
+    margin-right: 5px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#popBox4 .close{
+    text-align: right;
+    margin-right: 5px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+#popBox1 .close a {
     text-decoration: none;
     color: #2D2C3B;
 }
+
+#popBox2 .close a {
+    text-decoration: none;
+    color: #2D2C3B;
+}
+#popBox3 .close a {
+    text-decoration: none;
+    color: #2D2C3B;
+}
+#popBox4 .close a {
+    text-decoration: none;
+    color: #2D2C3B;
+}
+
 

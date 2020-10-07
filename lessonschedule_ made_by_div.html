@@ -6,17 +6,54 @@
   <title>Document</title>
   <link rel="stylesheet" href="style-div.css">
   <script>
-    function popBox() {
-      var popBox = document.getElementById("popBox");
+    function popBox1() {
+      var popBox1 = document.getElementById("popBox1");
       var popLayer = document.getElementById("popLayer");
-      popBox.style.display = "block";
+      popBox1.style.display = "block";
       popLayer.style.display = "block";
     };
     
-    function closeBox() {
-      var popBox = document.getElementById("popBox");
+    function popBox2() {
+      var popBox2 = document.getElementById("popBox2");
       var popLayer = document.getElementById("popLayer");
-      popBox.style.display = "none";
+      popBox2.style.display = "block";
+      popLayer.style.display = "block";
+    };
+    function popBox3() {
+      var popBox3 = document.getElementById("popBox3");
+      var popLayer = document.getElementById("popLayer");
+      popBox3.style.display = "block";
+      popLayer.style.display = "block";
+    };
+    function popBox4() {
+      var popBox4 = document.getElementById("popBox4");
+      var popLayer = document.getElementById("popLayer");
+      popBox4.style.display = "block";
+      popLayer.style.display = "block";
+    };
+     
+    function closeBox1() {
+      var popBox1 = document.getElementById("popBox1");
+      var popLayer = document.getElementById("popLayer");
+      popBox1.style.display = "none";
+      popLayer.style.display = "none";
+    }
+    function closeBox2() {
+      var popBox2 = document.getElementById("popBox2");
+      var popLayer = document.getElementById("popLayer");
+      popBox2.style.display = "none";
+      popLayer.style.display = "none";
+    }
+    function closeBox3() {
+      var popBox3 = document.getElementById("popBox3");
+      var popLayer = document.getElementById("popLayer");
+      popBox3.style.display = "none";
+      popLayer.style.display = "none";
+    }
+    function closeBox4() {
+      var popBox4 = document.getElementById("popBox4");
+      var popLayer = document.getElementById("popLayer");
+      popBox4.style.display = "none";
       popLayer.style.display = "none";
     }
   </script>
@@ -26,19 +63,64 @@
     <h3>2020/10/6</h3><br>
     <p>第6周&nbsp;&nbsp;周二</p>
     <div class="righttop">
-      <img src="加号小.png" onclick="popBox()" height="17px">
-      <img src="下载小.png" onclick="popBox()" height="17px">
-      <img src="转发小.png" onclick="popBox()" height="17px"> 
-      <img src="更多小.png" onclick="popBox()" height="17px">
+      <img src="加号小.png" onclick="popBox1()" height="17px">
+      <img src="下载小.png" onclick="popBox2()" height="17px">
+      <img src="转发小.png" onclick="popBox3()" height="17px"> 
+      <img src="更多小.png" onclick="popBox4()" height="17px">
     </div>
   </div>
   <div id="popLayer"></div>
-  <div id="popBox">
+  <div id="popBox1">
     <div class="close">
-      <a href="javascript:void(0)" onclick="closeBox()">关闭</a>
-    </div>
-    <div class="content">我是弹出层</div>
+      <a href="javascript:void(0)" onclick="closeBox1()">×</a>
+      <div class="content">
+        <p>添加课程</p>
+        <p>课程名称</p>
+        <p>学分</p>
+        <p>选取颜色</p>
+        <p>备注</p>
+        <p>授课老师</p>
+        <p>上课地点</p>
+        <p><input type="button" value="确认添加"></p></div>
+      </div> 
   </div>
+  <div id="popBox2">
+    <div class="close">
+      <a href="javascript:void(0)" onclick="closeBox2()">×</a>
+    </div>
+    <div class="content">
+      <p>导入课程</p>
+      <p>已支持从七百多所学校的教务直接导入课程，也可以去申请适配看看:)</p>
+      <p><a href="#">从学校教务导入</a></p>
+      <p><a href="#">从EXCEL导入</a></p>
+      <p><a href="#">从HTML文件导入</a></p>
+      <p><a href="#">从分享口令导入</a></p></div>
+    </div>
+    <div id="popBox3">
+      <div class="close">
+        <a href="javascript:void(0)" onclick="closeBox3()">×</a>
+        <div class="content">
+          <p>导出课程</p>
+          <p>课程需要自选一个位置保存<br>不要修改拓展名<br>导出后可选分享<br>长按第二个按钮科普ics</p>
+          <p>导出为备份</p>
+          <p>导出为ics格式</p>
+          <p>在线分享</p></div>
+        </div> 
+    </div>
+    <div id="popBox4">
+      <div class="close">
+        <a href="javascript:void(0)" onclick="closeBox4()">×</a>
+        <div class="content">
+          <p>上课时间</p>
+          <p>更换背景</p>
+          <p>已添课程</p>
+          <p>常见问题</p>
+          <p>关于</p>
+          <p>吐个槽</p>
+          <p>全局设置</p>
+          <p>修改当前周</p></div>
+        </div> 
+    </div>
   <section class="left">
     <div>&nbsp;10<br>&nbsp;月</div>
     <div>1 <br>
