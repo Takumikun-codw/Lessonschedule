@@ -121,7 +121,7 @@ span{
     z-index: 10;
     -moz-opacity: 0.8;
     opacity:.80;
-    filter: alpha(opacity=80);/* 只支持IE6、7、8、9 */
+    filter: alpha(opacity=80);
 }
 
 #popBox .close{

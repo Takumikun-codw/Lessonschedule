@@ -1,112 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
-    <title>Document</title>
-    <link rel="stylesheet" href="style-div.css">
-    <script>
-        function popBox() {
-            var popBox = document.getElementById("popBox");
-            var popLayer = document.getElementById("popLayer");
-            popBox.style.display = "block";
-            popLayer.style.display = "block";
-        };
-     
-        function closeBox() {
-            var popBox = document.getElementById("popBox");
-            var popLayer = document.getElementById("popLayer");
-            popBox.style.display = "none";
-            popLayer.style.display = "none";
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="style-div.css">
+  <script>
+    function popBox() {
+      var popBox = document.getElementById("popBox");
+      var popLayer = document.getElementById("popLayer");
+      popBox.style.display = "block";
+      popLayer.style.display = "block";
+    };
+    
+    function closeBox() {
+      var popBox = document.getElementById("popBox");
+      var popLayer = document.getElementById("popLayer");
+      popBox.style.display = "none";
+      popLayer.style.display = "none";
+    }
+  </script>
 </head>
 <body>
-    <div class="top">
-        <h3>2020/10/6</h3><br>
-        <p>第6周&nbsp;&nbsp;周二</p>
-        <div class="righttop">
-            <img src="加号小.png" onclick="popBox()" height="17px">
-            <img src="下载小.png" onclick="popBox()" height="17px">
-            <img src="转发小.png" onclick="popBox()" height="17px"> 
-            <img src="更多小.png" onclick="popBox()" height="17px">
-        </div>
+  <div class="top">
+    <h3>2020/10/6</h3><br>
+    <p>第6周&nbsp;&nbsp;周二</p>
+    <div class="righttop">
+      <img src="加号小.png" onclick="popBox()" height="17px">
+      <img src="下载小.png" onclick="popBox()" height="17px">
+      <img src="转发小.png" onclick="popBox()" height="17px"> 
+      <img src="更多小.png" onclick="popBox()" height="17px">
     </div>
-    <div id="popLayer"></div>
-    <div id="popBox">
-        <div class="close">
-            <a href="javascript:void(0)" onclick="closeBox()">关闭</a>
-        </div>
-        <div class="content">我是弹出层</div>
+  </div>
+  <div id="popLayer"></div>
+  <div id="popBox">
+    <div class="close">
+      <a href="javascript:void(0)" onclick="closeBox()">关闭</a>
     </div>
-    <section class="left">
-        <div>&nbsp;10<br>&nbsp;月</div>
-        <div>1 <br>
-            <span>08:00<br>08:50</span></div>
-        <div>2 <br>
-            <span>09:00<br>09:50</span></div>
-        <div>3 <br>
-            <span>10:10<br>11:00</span></div>
-        <div>4 <br>
-            <span>11:10<br>12:00</span></div>
-        <div>5 <br>
-            <span>13:30<br>14:20</span></div>
-        <div>6 <br>
-            <span>14:30<br>15:20</span></div>
-        <div>7 <br>
-            <span>15:40<br>16:30</span></div>
-        <div>8 <br>
-            <span>16:40<br>17:30</span></div>
-        <div>9 <br>
-            <span>18:30<br>19:20</span></div>
-        <div>10 <br>
-            <span>19:30<br>20:20</span></div>
-        <div>11 <br>
-            <span>20:30<br>21:20</span></div>
-        <div>12 <br>
-            <span>21:30<br>22:20</span></div>
-    </section>
-    <section class="top2">
-        <div>一<br>5</div>
-        <div>二<br>6</div>
-        <div>三<br>7</div>
-        <div>四<br>8</div>
-        <div>五<br>9</div>
-        <div>六<br>10</div>
-        <div>日<br>11</div>
-        
-    </section>
-    <section class="center">
-        <div class="green">微积分（一）（上）@东九楼C403</div>
-        <div class="blue2 transparent">线性代数@东九楼B104</div>
-        <div class="none"></div>
-        <div class="none"></div>
-        <div class="red">综合英语（一）@东九楼A106</div>
-        <div class="none"></div>
-        <div class="none"></div>
-        <div class="orange">中国语文@东十二楼F102</div>
-        <div class="none"></div>
-        <div class="blue1">思想道德修养与法律基础@东九楼@B401</div>
-        <div class="blue2 transparent">线性代数@东九楼B104</div>
-        <div class="green">微积分（一）（上）@东九楼C403</div>
-        <div class="none"></div>
-        <div class="none"></div>
-        <div class="red">工程制图（一）@东十二楼103</div>
-        <div class="pink">计算机与程序设计基础（C)@东九楼D405</div>
-        <div class="green">微积分（一）（上）@东九楼C403</div>
-        <div class="none"></div>
-        <div class="pink">计算机与程序设计基础（C)@东九楼D405</div>
-        <div class="none"></div>
-        <div class="none"></div>
-        <div class="red">工程制图（一）@东十二楼103</div>
-        <div class="red">综合英语（一）@东九楼A106</div>
-        <div class="none"></div>
-        <div class="none"></div>
-        <div class="none"></div>
-        <div class="none"></div>
-        <div class="none"></div>
-        <div class="pink">计算机与程序设计基础（C)@东九楼D405</div>
-    </section>
+    <div class="content">我是弹出层</div>
+  </div>
+  <section class="left">
+    <div>&nbsp;10<br>&nbsp;月</div>
+    <div>1 <br>
+      <span>08:00<br>08:50</span></div>
+    <div>2 <br>
+      <span>09:00<br>09:50</span></div>
+    <div>3 <br>
+      <span>10:10<br>11:00</span></div>
+    <div>4 <br>
+      <span>11:10<br>12:00</span></div>
+    <div>5 <br>
+      <span>13:30<br>14:20</span></div>
+    <div>6 <br>
+      <span>14:30<br>15:20</span></div>
+    <div>7 <br>
+      <span>15:40<br>16:30</span></div>
+    <div>8 <br>
+      <span>16:40<br>17:30</span></div>
+    <div>9 <br>
+      <span>18:30<br>19:20</span></div>
+    <div>10 <br>
+      <span>19:30<br>20:20</span></div>
+    <div>11 <br>
+      <span>20:30<br>21:20</span></div>
+    <div>12 <br>
+      <span>21:30<br>22:20</span></div>
+  </section>
+  <section class="top2">
+    <div>一<br>5</div>
+    <div>二<br>6</div>
+    <div>三<br>7</div>
+    <div>四<br>8</div>
+    <div>五<br>9</div>
+    <div>六<br>10</div>
+    <div>日<br>11</div>
+    
+  </section>
+  <section class="center">
+    <div class="green">微积分（一）（上）@东九楼C403</div>
+    <div class="blue2 transparent">线性代数@东九楼B104</div>
+    <div class="none"></div>
+    <div class="none"></div>
+    <div class="red">综合英语（一）@东九楼A106</div>
+    <div class="none"></div>
+    <div class="none"></div>
+    <div class="orange">中国语文@东十二楼F102</div>
+    <div class="none"></div>
+    <div class="blue1">思想道德修养与法律基础@东九楼@B401</div>
+    <div class="blue2 transparent">线性代数@东九楼B104</div>
+    <div class="green">微积分（一）（上）@东九楼C403</div>
+    <div class="none"></div>
+    <div class="none"></div>
+    <div class="red">工程制图（一）@东十二楼103</div>
+    <div class="pink">计算机与程序设计基础（C)@东九楼D405</div>
+    <div class="green">微积分（一）（上）@东九楼C403</div>
+    <div class="none"></div>
+    <div class="pink">计算机与程序设计基础（C)@东九楼D405</div>
+    <div class="none"></div>
+    <div class="none"></div>
+    <div class="red">工程制图（一）@东十二楼103</div>
+    <div class="red">综合英语（一）@东九楼A106</div>
+    <div class="none"></div>
+    <div class="none"></div>
+    <div class="none"></div>
+    <div class="none"></div>
+    <div class="none"></div>
+    <div class="pink">计算机与程序设计基础（C)@东九楼D405</div>
+  </section>
 
 </body>
 </html>
