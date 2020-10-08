@@ -31,7 +31,12 @@
       popBox4.style.display = "block";
       popLayer.style.display = "block";
     }
-     
+    function popBox5() {
+      var popBox5 = document.getElementById("popBox5");
+      var popLayer = document.getElementById("popLayer");
+      popBox5.style.display = "block";
+      popLayer.style.display = "block";
+    }
     function closeBox1() {
       var popBox1 = document.getElementById("popBox1");
       var popLayer = document.getElementById("popLayer");
@@ -56,6 +61,12 @@
       popBox4.style.display = "none";
       popLayer.style.display = "none";
     }
+    function closeBox5() {
+      var popBox5 = document.getElementById("popBox5");
+      var popLayer = document.getElementById("popLayer");
+      popBox5.style.display = "none";
+      popLayer.style.display = "none";
+    }
   </script>
 </head>
 <body>
@@ -63,10 +74,10 @@
     <h3>2020/10/6</h3><br>
     <p>第6周&nbsp;&nbsp;周二</p>
     <div class="righttop">
-      <img src="加号小.png" onclick="popBox1()" height="17px">
-      <img src="下载小.png" onclick="popBox2()" height="17px">
-      <img src="转发小.png" onclick="popBox3()" height="17px"> 
-      <img src="更多小.png" onclick="popBox4()" height="17px">
+      <div class="image"><img src="加号小.png" onclick="popBox1()" height="17px"></div>
+      <div class="image"><img src="下载小.png" onclick="popBox2()" height="17px"></div>
+      <div class="image"><img src="转发小.png" onclick="popBox3()" height="17px"></div> 
+      <div class="image"><img src="更多小.png" onclick="popBox4()" height="17px"></div>
     </div>
   </div>
   <div id="popLayer"></div>
@@ -119,6 +130,14 @@
           <p class="pinky">全局设置</p></div>
         </div> 
     </div>
+    <div id="popBox5">
+      <div class="close">
+        <a href="javascript:void(0)" onclick="closeBox5()">×</a>
+        <div class="content">
+          <p class="pinky">课程信息</p>
+    </div>
+        </div> 
+    </div>
   <section class="left">
     <div>&nbsp;10<br>&nbsp;月</div>
     <div>1 <br>
@@ -157,35 +176,35 @@
     
   </section>
   <section class="center">
-    <div class="green">微积分（一）（上）@东九楼C403</div>
-    <div class="blue2 transparent">线性代数@东九楼B104</div>
+    <div class="green" onclick="popBox5()">微积分（一）（上）@东九楼C403</div>
+    <div class="blue2 transparent" onclick="popBox5()">线性代数@东九楼B104</div>
     <div class="none"></div>
     <div class="none"></div>
-    <div class="red">综合英语（一）@东九楼A106</div>
+    <div class="red" onclick="popBox5()">综合英语（一）@东九楼A106</div>
     <div class="none"></div>
     <div class="none"></div>
-    <div class="orange">中国语文@东十二楼F102</div>
+    <div class="orange" onclick="popBox5()">中国语文@东十二楼F102</div>
     <div class="none"></div>
-    <div class="blue1">思想道德修养与法律基础@东九楼@B401</div>
-    <div class="blue2 transparent">线性代数@东九楼B104</div>
-    <div class="green">微积分（一）（上）@东九楼C403</div>
-    <div class="none"></div>
-    <div class="none"></div>
-    <div class="red">工程制图（一）@东十二楼103</div>
-    <div class="pink">计算机与程序设计基础（C)@东九楼D405</div>
-    <div class="green">微积分（一）（上）@东九楼C403</div>
-    <div class="none"></div>
-    <div class="pink">计算机与程序设计基础（C)@东九楼D405</div>
+    <div class="blue1" onclick="popBox5()">思想道德修养与法律基础@东九楼@B401</div>
+    <div class="blue2 transparent" onclick="popBox5()">线性代数@东九楼B104</div>
+    <div class="green" onclick="popBox5()">微积分（一）（上）@东九楼C403</div>
     <div class="none"></div>
     <div class="none"></div>
-    <div class="red">工程制图（一）@东十二楼103</div>
-    <div class="red">综合英语（一）@东九楼A106</div>
+    <div class="red" onclick="popBox5()">工程制图（一）@东十二楼103</div>
+    <div class="pink" onclick="popBox5()">计算机与程序设计基础（C)@东九楼D405</div>
+    <div class="green" onclick="popBox5()">微积分（一）（上）@东九楼C403</div>
+    <div class="none"></div>
+    <div class="pink" onclick="popBox5()">计算机与程序设计基础（C)@东九楼D405</div>
+    <div class="none"></div>
+    <div class="none"></div>
+    <div class="red" onclick="popBox5()">工程制图（一）@东十二楼103</div>
+    <div class="red" onclick="popBox5()">综合英语（一）@东九楼A106</div>
+    <div class="none" onclick="popBox5()"></div>
     <div class="none"></div>
     <div class="none"></div>
     <div class="none"></div>
     <div class="none"></div>
-    <div class="none"></div>
-    <div class="pink">计算机与程序设计基础（C)@东九楼D405</div>
+    <div class="pink" onclick="popBox5()">计算机与程序设计基础（C)@东九楼D405</div>
   </section>
 
 </body>
